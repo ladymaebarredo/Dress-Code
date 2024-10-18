@@ -1,0 +1,215 @@
+@import url('node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E9EFEC;
+    color: #2B2D2F;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #6A9C89;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    color: #16423C;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.social-icons a {
+    color: black;
+    margin-left: 10px;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #E9F0EC;
+}
+
+.hero .content h1 {
+    padding-top: 50px;
+    font-size: 100px;
+    color: #16423C;
+    font-weight: 600;
+    margin-left: 130px;
+}
+
+.hero .content p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 130px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #C4DAD2;
+    color: #16423C;
+    border: none;
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+.tshirt-container {
+    text-align: center; 
+    padding: 50px; 
+    background-color: #C4DAD2; 
+    border-radius: 50px;
+    margin-right: 150px;
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+}
+
+.tshirt-image img {
+   width: 300px;
+   height: 300px;
+}
+
+
+.gallery-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #E9F0EC;
+}
+
+.gallery-section h2 {
+    font-size: 35px;
+    color: #354F39;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    text-align: left;
+   
+
+}
+
+.gallery-boxes {
+    display: flex;
+    justify-content: center; 
+    gap: 80px; 
+}
+
+.gallery-box {
+    background-color: #D4E5DB;
+    border-radius: 25px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px; 
+    height: 350px; 
+}
+
+.gallery-box img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+footer {
+    position: relative;
+    background-color: #6A9C89; 
+    color: #000000;
+    padding: 50px;
+    height: 200px; 
+    
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+    height: 100%; 
+}
+
+footer p {
+    margin: 0;
+    z-index: 2; /* Keeps it above the split */
+}
+
+.contact-info {
+    text-align: right;
+    position: relative;
+    z-index: 2; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #000000;    
+    font-size: 36px;  
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #000000;   
+    font-size: 36px;   
+}
+
+.social-icons a:hover {
+    color: #354F39;    
+}
+
+.social-icons {
+    display: flex; 
+    gap: 20px;      
+}
+
+.social-icons a {
+    color: #000000;
+    margin-left: 10px;
+    font-size: 20px; 
+    transition: color 0.3s; 
+    font-size: 30px;
+   
+
